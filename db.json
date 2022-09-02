@@ -1,0 +1,23 @@
+{
+    "hospitals": [
+      {
+        "id": 1,
+        "title": "The Nairobi West Hospital",
+        "location": "Nairobi",
+        "Address":"Gandhi Ave · 0730 600000"
+
+      },
+      {
+        "id": 2,
+        "title": "The Nairobi Hospital's Doctors Plaza",
+        "location": "Nairobi",
+        "Address":"Argwings Kodhek Road · 020 284"
+      },
+      {
+        "id": 3,
+        "title": "MP Shah Hospital",
+        "location": "Nairobi",
+        "Address":"Shivaji Road · 020 4291000"
+      }
+    ]
+  }

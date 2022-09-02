@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+ }
+ nav{
+     float: right;
+ }
+ nav ul{
+   display: inline-block;
+   list-style-type: none;  
+ }
+ nav ul li{
+   display: inline-block;  
+   margin-right: 20px;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: rgb(247, 241, 241);
+     font-size: 25px;
+ }
+ nav ul li a:hover{
+     color: rgb(219, 30, 23);
+ }
+ .fixed-nav-bar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+    height: 50px; 
+    background-color: #101312;
+ }
+
+.intro{
+    background-image: url(../img/pexels-anna-shvets-3786215.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 10px;
+    padding: 10px;
+    
+
+}
+
+#aboutUs{
+    background-image: url(../img/pexels-anna-shvets-3786154.jpg);
+    background-size: cover;
+    height: 500px;
+    padding:10px
+}
+.aboutTopic{
+    width: 50%;
+    float: right;
+    font-size: 19px;
+}
+h1{
+   
+    font-size: 80px;
+    padding-top: 60px;
+    font-family: 'Yeseva One', cursive;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.centbutton{
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+
+#donate{
+    background-color: rgb(211, 19, 19);
+    color: white;
+    font-size: 25px;
+    padding: 15px 32px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+
+}
+#donate:hover{
+    background-color: bisque;
+    transition: 0.7s;
+    color: black;
+}
+#donate:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #011aa7;
+}
+.radios{
+    display: flex;
+    gap: 20px;
+}
+
+form{
+    border: 3px solid red;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+}
+
+input[type=submit] {
+    background-color: rgb(240, 28, 28);
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    
+ }
+ input[type=submit]:hover{
+    background-color: bisque;
+    transition: 0.7s;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.hospitals{
+    text-align: center;
+    list-style-position: inside;
+}
+
+#donors{
+    border-style: double;
+    border-color: red;
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+}
+#container{
+    border-style: dotted;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    color: rgb(13, 13, 70);
+
+}
+#personalDetails{
+    background: linear-gradient(#92ade7, #6f75ad);
+ 
+}
+body{
+    background-color: #92ade7;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.subutton{
+    text-align: center;
+}
+
+.contact{
+    background-image: linear-gradient(white,rgb(87, 108, 214));
+    height: 400px;
+    text-align: center;
+    color: rgb(9, 10, 10);
+}
+
+.emailtext{
+    color: rgb(26, 5, 5);
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+
